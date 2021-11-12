@@ -11,4 +11,11 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tvTitle">Welcome to the HvA Locations Quest</string>
+    <string name="tvInstruction">After pressing start you will start the quest. After each question a picture of a HvA building is shown. Go to the building and start the next question. At the end there will be a prize waiting for you!</string>
+    <string name="btnStart">Start Quest</string>
+    <string name="btnConfirm">Confirm</string>
+    <string name="ivBuilding">Building to the question</string>
+    <string name="tvCongratulation">Congratulations!!!</string>
+    <string name="tvCongratulationSubtitle">You completed the HvA quest.</string>
 </resources>
