@@ -8,9 +8,8 @@
     <fragment
         android:id="@+id/HomeFragment"
         android:name="nl.hva.madlevel7task2.HomeFragment"
-        android:label="@string/first_fragment_label"
+        android:label="@string/fragmentTitle"
         tools:layout="@layout/fragment_home">
-
         <action
             android:id="@+id/action_HomeFragment_to_QuestFragment"
             app:destination="@id/QuestFragment" />
@@ -18,16 +17,18 @@
     <fragment
         android:id="@+id/QuestFragment"
         android:name="nl.hva.madlevel7task2.QuestFragment"
-        android:label="@string/second_fragment_label"
+        android:label="@string/fragmentTitle"
         tools:layout="@layout/fragment_quest">
         <action
             android:id="@+id/action_QuestFragment_to_RewardFragment"
-            app:destination="@id/RewardFragment" />
+            app:destination="@id/RewardFragment"
+            app:popUpTo="@+id/HomeFragment"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/RewardFragment"
         android:name="nl.hva.madlevel7task2.RewardFragment"
-        android:label="fragment_reward"
+        android:label="@string/fragmentTitle"
         tools:layout="@layout/fragment_reward" >
         <action
             android:id="@+id/action_RewardFragment_to_HomeFragment"
