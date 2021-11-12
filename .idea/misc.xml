@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Development/hslu/hs21/mobdev/MadLevel7Task2/app/src/main/res/layout/fragment_home.xml" value="0.20260416666666667" />
+        <entry key="..\:/Development/hslu/hs21/mobdev/MadLevel7Task2/app/src/main/res/layout/fragment_quest.xml" value="0.20260416666666667" />
+        <entry key="..\:/Development/hslu/hs21/mobdev/MadLevel7Task2/app/src/main/res/layout/fragment_reward.xml" value="0.20260416666666667" />
         <entry key="..\:/Development/hslu/hs21/mobdev/MadLevel7Task2/app/src/main/res/menu/menu_main.xml" value="0.20260416666666667" />
       </map>
     </option>
