@@ -25,7 +25,9 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        viewModel.getQuest()
+        binding.btnStart.setOnClickListener {
+            findNavController().navigate(R.id.QuestFragment)
+        }
     }
 
     override fun onDestroyView() {

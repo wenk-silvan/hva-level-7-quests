@@ -18,4 +18,5 @@
     <string name="ivBuilding">Building to the question</string>
     <string name="tvCongratulation">Congratulations!!!</string>
     <string name="tvCongratulationSubtitle">You completed the HvA quest.</string>
+    <string name="tvIndex">%d/%d</string>
 </resources>

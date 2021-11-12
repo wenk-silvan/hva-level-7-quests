@@ -28,5 +28,9 @@
         android:id="@+id/RewardFragment"
         android:name="nl.hva.madlevel7task2.RewardFragment"
         android:label="fragment_reward"
-        tools:layout="@layout/fragment_reward" />
+        tools:layout="@layout/fragment_reward" >
+        <action
+            android:id="@+id/action_RewardFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
+    </fragment>
 </navigation>
