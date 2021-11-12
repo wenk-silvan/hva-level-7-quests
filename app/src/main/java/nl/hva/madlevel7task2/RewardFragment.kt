@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import nl.hva.madlevel7task2.databinding.FragmentRewardBinding
 
 class RewardFragment : Fragment() {
@@ -21,6 +22,9 @@ class RewardFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        binding.btnHome.setOnClickListener {
+            findNavController().navigate(R.id.action_RewardFragment_to_HomeFragment)
+        }
     }
 
     override fun onDestroyView() {
