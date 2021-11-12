@@ -8,5 +8,5 @@ data class Quiz(
     val optionTwo: String,
     val optionThree: String,
     val result: String,
-    val imgStorageReference: StorageReference
+    val imgStorageReference: StorageReference,
 )

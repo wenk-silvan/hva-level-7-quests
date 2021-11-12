@@ -22,12 +22,7 @@ class QuestRepository {
                 val data = questCollection.get().await()
                 val tempList = ArrayList<Quiz>()
                 data.documents.forEach {
-
-//                    val imgDownloadUri = storage
-//                        .getReferenceFromUrl("gs://$bucketName/images/ic_building_1.jpg")
-//                        .downloadUrl
-//                        .await()
-
+                    val imageReferenceUrl = "gs://$bucketName/${it.getString("imageName")}"
                     tempList.add(
                         Quiz(
                             it.getString("question").toString(),
@@ -35,7 +30,7 @@ class QuestRepository {
                             it.getString("optionTwo").toString(),
                             it.getString("optionThree").toString(),
                             it.getString("result").toString(),
-                            storage.getReferenceFromUrl("gs://$bucketName/ic_building_1.jpg")
+                            storage.getReferenceFromUrl(imageReferenceUrl)
                         )
                     )
                 }
